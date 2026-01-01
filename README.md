@@ -103,7 +103,7 @@ docker compose up
 
 ---
 
-## ⚙️ Configuration
+## Configuration
 
 ### Airflow connections are defined via ENV:
 
