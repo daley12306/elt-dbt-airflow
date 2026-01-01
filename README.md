@@ -1,4 +1,4 @@
-# 📊 ELT Pipeline with Apache Airflow, dbt, and PostgreSQL
+# ELT Pipeline with Apache Airflow, dbt, and PostgreSQL
 
 This project demonstrates a full **ELT workflow** using:
 
@@ -9,7 +9,7 @@ This project demonstrates a full **ELT workflow** using:
 
 ---
 
-## 🛠️ Technologies
+## Technologies
 
 * Apache Airflow `2.9.3`
 * dbt `1.4.7`
@@ -19,13 +19,13 @@ This project demonstrates a full **ELT workflow** using:
 
 ---
 
-## 🧱 Architecture Overview
+## Architecture Overview
 
 ![Architecture](architecture.png)
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 .
@@ -48,7 +48,7 @@ This project demonstrates a full **ELT workflow** using:
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Clone the Repository
 
@@ -118,7 +118,7 @@ AIRFLOW_CONN_DESTINATION_POSTGRES=postgres://postgres:secret@destination_postgre
 
 ---
 
-## 🪩 Clean Up
+## Clean Up
 
 To shut down and remove all containers and volumes:
 
@@ -128,7 +128,7 @@ docker compose down -v
 
 ---
 
-## 📌 Notes
+## Notes
 
 * Ensure the `~/.dbt/profiles.yml` file is present and matches the profile name `custom_postgres`.
 * All source paths in `docker-compose.yml` and DAG should exist and be correctly mounted.
